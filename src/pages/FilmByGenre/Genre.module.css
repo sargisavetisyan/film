@@ -1,0 +1,173 @@
+.loadding {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-family: 'Rubik Bubbles', cursive;
+    font-size: clamp(32px, 48px, 54px);
+    color: #FFC107;
+    padding: 10px 5px;
+}
+
+.sectionSelect {
+    padding: 5px 0;
+    text-align: end;
+}
+
+.select {
+    border: none !important;
+    border-radius: 5px !important;
+    padding: 10px !important;
+    min-width: 100px;
+    font-family: 'Dosis', sans-serif;
+    font-size: clamp(16px, 18px, 20px);
+    font-weight: 500;
+    color: #fff;
+    background-color: #312F35;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+
+.select:hover {
+    background-color: #474749;
+}
+
+.allFilms {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.allFilmsItem {
+    width: clamp(250px, 300px, 350px);
+    height: clamp(220px, 230px, 250px);
+    margin-bottom: 20px;
+    background-color: #1B1B1B;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.4s ease 0s;
+}
+
+.allFilmsItem:hover {
+    box-shadow: 2px 2px 2px 2px white, 4px 4px 2px 2px #C76637;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    margin-top: -50px;
+    visibility: hidden;
+}
+
+.infoRating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #44c95a;
+}
+
+.allFilmsItem:hover .info {
+    visibility: visible;
+}
+
+.infoBody {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 10px;
+    margin-top: -17px;
+}
+
+.infoBody div:not(:last-child) {
+    margin-right: 8px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+h4 {
+    font-family: 'Rubik Bubbles', cursive;
+    font-size: 16px !important;
+    color: #FFC107;
+}
+
+.paginateSection {
+    width: clamp(25%, 30%, 40%);
+    margin: 0 auto;
+}
+
+.paginate {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 !important;
+}
+
+.paginate a {
+    font-size: clamp(18px, 20px, 22px);
+    font-weight: 500;
+    line-height: 1 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #1B1B1B !important;
+    padding: 5px 10px;
+    background-color: #F7CA18;
+    border-radius: 5px;
+    transition: all 0.4s ease 0s;
+}
+
+.paginate a:active,
+.paginate a:focus-visible {
+    background-color: #C76637 !important;
+}
+
+.active {
+    box-shadow: 2px 2px 2px 2px white, 4px 4px 2px 2px #C76637;
+}
+
+@media (max-width: 1200px) {
+    .paginateSection {
+        width: clamp(25%, 40%, 45%);
+    }
+}
+
+@media (max-width: 990px) {
+    .paginateSection {
+        width: clamp(25%, 43%, 45%);
+    }
+}
+
+@media (max-width: 767px) {
+    .allFilms {
+        justify-content: center;
+        padding: 30px 0;
+    }
+
+    .allFilmsItem {
+        flex: 0 0 80%;
+    }
+
+    .info {
+        margin-top: -70px;
+    }
+
+    .paginateSection {
+        width: 200px
+    }
+}

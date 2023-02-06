@@ -1,0 +1,30 @@
+<svg width="1024" height="768" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG Editor - http://github.com/mzalive/SVG Editor/ -->
+ <defs>
+  <filter height="200%" width="200%" y="-50%" x="-50%" id="svg_5_blur">
+   <feGaussianBlur stdDeviation="0" in="SourceGraphic"/>
+  </filter>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="770" width="1026" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <text stroke="#000" transform="matrix(9.600948452406328,0,0,5.538167601307295,-943.787749732941,-821.5928969051835) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="26" id="svg_1" y="200.453125" x="109.5" stroke-width="0" fill="#000000"/>
+  <text style="cursor: move;" font-style="italic" stroke="#000" transform="matrix(11.504089365609083,0,0,10.027683111269868,-2713.3112452605956,-2237.194644730238) " xml:space="preserve" text-anchor="start" font-family="'Shadows Into Light', serif" font-size="21" id="svg_3" y="244.369965" x="255.5" stroke-opacity="null" stroke-width="0" fill="#f7ca18">i</text>
+  <text font-style="italic" font-weight="bold" stroke="#000" transform="matrix(3.327298215008341,0,0,4.932100773342145,-979.8893113493104,-746.6909470934945) " xml:space="preserve" text-anchor="start" font-family="'Shadows Into Light', serif" font-size="52" id="svg_4" y="195.824407" x="382.012645" stroke-opacity="null" stroke-width="0" fill="#f7ca18">n</text>
+  <text filter="url(#svg_5_blur)" font-style="italic" stroke="#000" transform="rotate(-41 437.3443603515626,104.5476837158203) matrix(2.409079923169017,0,0,2.23631872012685,-639.5401526078109,-135.1709831182502) " xml:space="preserve" text-anchor="start" font-family="'Shadows Into Light', serif" font-size="147" id="svg_5" y="162.048533" x="421.745289" stroke-opacity="null" stroke-width="0" fill="#f7ca18">o</text>
+  <text style="cursor: move;" font-weight="bold" font-style="italic" stroke="#000" transform="matrix(9.476575297896133,0,0,7.174913133593192,-1073.3405161699252,-1234.6581204641716) " xml:space="preserve" text-anchor="start" font-family="'Shadows Into Light', serif" font-size="39" id="svg_8" y="205.482135" x="116.322686" stroke-opacity="null" stroke-width="0" fill="#f7ca18">k</text>
+  <text stroke="#000" transform="matrix(11.302486500169096,0,0,3.2282910346984863,-1630.907202195796,-772.4886191284895) " xml:space="preserve" text-anchor="start" font-family="'Shadows Into Light', serif" font-size="39" id="svg_10" y="392.453125" x="149.5" stroke-opacity="null" stroke-width="0" fill="#f7ca18"/>
+  <text xml:space="preserve" text-anchor="start" font-family="'Shadows Into Light', serif" font-size="147" id="svg_11" y="517.453125" x="72.5" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#f7ca18"/>
+  <text opacity="0.33" font-style="italic" stroke="#000" transform="matrix(11.504089365609083,0,0,10.027683111269868,-2713.3112452605956,-2237.194644730238) " xml:space="preserve" text-anchor="start" font-family="'Shadows Into Light', serif" font-size="21" id="svg_16" y="270.697083" x="255.5" stroke-opacity="null" stroke-width="0" fill="#f7ca18">i</text>
+  <text style="cursor: move;" opacity="0.33" font-style="italic" font-weight="bold" stroke="#000" transform="matrix(3.327298215008341,0,0,4.932100773342145,-979.8893113493104,-746.6909470934945) " xml:space="preserve" text-anchor="start" font-family="'Shadows Into Light', serif" font-size="52" id="svg_17" y="249.351293" x="382.012645" stroke-opacity="null" stroke-width="0" fill="#f7ca18">n</text>
+  <text style="cursor: text;" opacity="0.33" filter="url(#svg_5_blur)" font-style="italic" stroke="#000" transform="rotate(-41 437.3443908691406,368.54772949218756) matrix(2.409079923169017,0,0,2.23631872012685,-639.5401526078109,-135.1709831182502) " xml:space="preserve" text-anchor="start" font-family="'Shadows Into Light', serif" font-size="147" id="svg_18" y="280.099685" x="421.745289" stroke-opacity="null" stroke-width="0" fill="#f7ca18">o</text>
+  <text opacity="0.33" font-weight="bold" font-style="italic" stroke="#000" transform="matrix(9.476575297896133,0,0,7.174913133593192,-1073.3405161699252,-1234.6581204641716) " xml:space="preserve" text-anchor="start" font-family="'Shadows Into Light', serif" font-size="39" id="svg_19" y="242.277006" x="116.322686" stroke-opacity="null" stroke-width="0" fill="#f7ca18">k</text>
+  <text xml:space="preserve" text-anchor="start" font-family="'Shadows Into Light', serif" font-size="147" id="svg_20" y="781.453125" x="72.5" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#f7ca18"/>
+ </g>
+</svg>

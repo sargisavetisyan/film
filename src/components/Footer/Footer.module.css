@@ -1,0 +1,11 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Rubik Bubbles', cursive;
+    font-weight: 500;
+    font-size: clamp(16px, 30px 32px);
+    padding: 20px 10px;
+    border-top: 2px solid #FFC107;
+    color: #fff;
+}

@@ -1,0 +1,123 @@
+.contain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px auto;
+    height: 100%;
+}
+
+.card {
+    width: 18rem;
+    background-color: #312F35 !important;
+}
+
+.img {
+    height: 200px !important;
+}
+
+.title,
+.text {
+    font-family: 'Rubik Bubbles', cursive;
+    text-align: start;
+    color: #F7CA18;
+    text-shadow: 2px 3px 4px #fff;
+}
+
+.body {
+    flex: 0 1 100%;
+}
+
+.body h1 {
+    text-align: center;
+    text-shadow: 4px 3px 0px #fff, 9px 8px 0px #ccc;
+}
+
+.form {
+    color: #fff;
+    padding: 50px 20px;
+    height: 100%;
+}
+
+.input {
+    font-weight: 500 !important;
+    color: #fff !important;
+    border: 1px solid#3A2F28 !important;
+    border-radius: 0 !important;
+    margin-bottom: 35px;
+    background-color: transparent !important;
+}
+
+.input:focus,
+.input:active {
+    box-shadow: 0 0 0 2px white, 0 0 0 4px #F7CA18 !important;
+    outline: none !important;
+}
+
+.input::placeholder {
+    text-align: start !important;
+    font-weight: 500 !important;
+    color: #fff !important;
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important;
+}
+
+.btnItem {
+    text-align: center;
+}
+
+.btn {
+    border: 0;
+    padding: 15px 40px !important;
+    width: 50%;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #F7CA18;
+    background-color: #312F35;
+    transition: all 0.7s ease 0s;
+}
+
+.btnChange {
+    border: none !important;
+    border-radius: 0 !important;
+    padding: 15px 40px !important;
+    min-width: 200px;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+    font-size: clamp(16px, 18px, 20px);
+    font-weight: 300;
+    color: #F7CA18;
+    background-color: #312F35 !important;
+    transition: all 0.7s ease 0s !important;
+}
+
+.btnChange:hover {
+    box-shadow: 2px 2px white, 4px 4px #F7CA18;
+    top: -4px;
+    left: -4px;
+    background-color: #F7CA18 !important;
+    color: #312F35;
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: #F7CA18;
+}
+
+
+@media (max-width: 500px) {
+    .contain {
+        flex-direction: column;
+        height: 100%;
+        margin: 30px auto
+    }
+
+    .btnItem {
+        text-align: center;
+    }
+
+    .btnChange {
+        width: 100%;
+    }
+}

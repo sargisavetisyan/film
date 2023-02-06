@@ -1,0 +1,121 @@
+.top {
+    min-height: 700px !important;
+    background-color: #1B1B1B !important;
+    transition: all 0.8s ease 0s !important;
+    overflow: scroll;
+}
+
+.iconBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.icon {
+    color: #c7c1c1;
+    transform: scale(1.4);
+}
+
+.search {
+    font-size: clamp(18px, 20px, 22px);
+    font-weight: 400;
+    min-width: 700px;
+    padding: 10px 15px;
+    margin-left: 15px;
+    border-bottom: 1px solid #F7CA18 !important;
+    background-color: transparent !important;
+    outline: none;
+    color: #fff;
+}
+
+.loadding {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-family: 'Rubik Bubbles', cursive;
+    font-size: 48px;
+    color: #FFC107;
+    padding: 10px 5px;
+}
+
+.filmBody {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.allFilmsItem {
+    display: flex;
+    flex-direction: row;
+    width: clamp(200px, 450px, 480px);
+    height: clamp(100px, 120px, 150px);
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.allFilmsItem img {
+    width: 45%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.allFilmsItem:hover {
+    background-color: #383333;
+    border-radius: 20px;
+    border: 1px solid #FFC107;
+    box-shadow: 2px 2px 2px 2px white, 4px 4px 2px 2px #C76637;
+}
+
+.allFilmsItem :hover img {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+h4 {
+    font-family: 'Rubik Bubbles', cursive;
+    padding: 10px 10px;
+    color: #FFC107;
+}
+
+@media (max-width: 991px) {
+    .top {
+        min-height: 400px !important;
+        overflow-y: scroll;
+    }
+
+    .search {
+        min-width: 300px !important;
+    }
+
+    .search ::placeholder {
+        font-size: 16px !important;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .icon {
+        transform: scale(1.1);
+    }
+}
+
+@media (max-width: 450px) {
+    .iconBox {
+        display: block;
+    }
+
+    .search {
+        min-width: 150px !important;
+        margin: 0;
+        padding: 10px 0px;
+    }
+}

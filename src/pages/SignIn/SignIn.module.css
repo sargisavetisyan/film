@@ -1,0 +1,137 @@
+.form {
+    color: #fff;
+    padding: 100px 20px;
+    background-attachment: scroll;
+    background: #1c1e21 url(../../image/login1.jpg);
+    background-position: center center;
+    background-repeat: none;
+    background-size: cover;
+    height: 100%;
+}
+
+.divBtn {
+    max-width: 650px;
+    margin: auto;
+}
+
+h2 {
+    color: #fff;
+    font-family: 'Rubik Bubbles', cursive;
+    font-size: clanp(20px, 28px, 30px);
+    margin: 0 0 30px;
+    padding: 15px 0;
+    text-align: center;
+    background: transparent;
+}
+
+.formContent {
+    max-width: 650px;
+    min-height: 300px;
+    background: rgba(0, 0, 0, 0.7);
+    margin: auto;
+}
+
+.formBody {
+    padding: 20px 10px;
+}
+
+.input {
+    color: #fff !important;
+    border-radius: 0 !important;
+    margin-bottom: 35px;
+}
+
+.input:focus,
+.input:active {
+    outline: none !important;
+}
+
+.input::placeholder {
+    color: #fff !important;
+}
+
+.formBody input {
+    min-width: 100%;
+    min-height: 50px;
+    padding: 10px 5px;
+    border: 2px solid #fff;
+    background-color: transparent !important;
+    outline: none;
+    color: #fff;
+}
+
+.formBody input:focus,
+.formBody input:active {
+    border: 3px solid #F7CA18;
+    outline: none;
+
+}
+
+.btnItem {
+    text-align: end;
+}
+
+.btn {
+    border: 0;
+    padding: 15px 40px !important;
+    width: 50%;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #F7CA18;
+    background-color: #312F35;
+    transition: all 0.7s ease 0s;
+}
+
+.btnAdd {
+    border: none !important;
+    border-radius: 0 !important;
+    padding: 15px 40px !important;
+    min-width: 200px;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+    font-size: clamp(16px, 18px, 20px);
+    font-weight: 300;
+    color: #312F35;
+    background-color: #F7CA18 !important;
+    transition: all 0.7s ease 0s !important;
+}
+
+.btnAdd:hover {
+    box-shadow: 2px 2px 2px 2px white, 4px 4px 2px 2px #C76637;
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: #F7CA18;
+}
+
+@media (max-width: 900px) {
+    .form {
+        padding: 80px 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .form {
+        padding: 30px 10px;
+    }
+
+    h2 {
+        margin: 0 0 10px 0 !important;
+        padding: 10px 0 !important;
+    }
+
+    .btn {
+        padding: 10px !important;
+    }
+
+    .btnAdd {
+        width: 100%;
+    }
+
+    .btnAdd:hover {
+        transform: translateX(0px);
+    }
+}

@@ -1,0 +1,104 @@
+.form {
+    font-weight: 600;
+    color: #fff;
+    padding: 30px 20px;
+    background-attachment: scroll;
+    background: #1c1e21 url(../../image/signup.jpg);
+    background-position: center center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.body {
+    border: 5px solid #F7CA18;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    color: #fff;
+    font-family: 'Rubik Bubbles', cursive;
+    font-size: clanp(20px, 28px, 30px);
+    font-weight: 500;
+    margin: 0 0 15px;
+    padding: 15px 0;
+    text-align: center;
+    background: transparent;
+}
+
+.input {
+    background: transparent !important;
+    border-radius: 0 !important;
+    color: #fff !important;
+}
+
+.input::placeholder {
+    color: #fff !important;
+}
+
+.input:active,
+.input:focus {
+    border: 3px solid #F7CA18 !important;
+    outline: none !important;
+}
+
+.body .Item:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.title,
+.selects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Item {
+    flex: 0 1 40%
+}
+
+.btnItem {
+    text-align: end;
+}
+
+.btnAdd {
+    border: 0 !important;
+    padding: 15px 40px !important;
+    min-width: 200px;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+    font-size: clamp(16px, 18px, 20px);
+    font-weight: 300;
+    color: #312F35;
+    background-color: #F7CA18 !important;
+    transition: all 0.7s ease 0s;
+}
+
+.btnAdd:hover {
+    box-shadow: 2px 2px 2px 2px white, 4px 4px 2px 2px #C76637;
+}
+
+@media (max-width: 900px) {
+    .body {
+        border: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .form {
+        padding: 10px 10px;
+    }
+
+    .title {
+        margin-bottom: 15px;
+    }
+
+    .title,
+    .selects {
+        display: block;
+    }
+
+    .btnAdd {
+        width: 100%;
+    }
+}
